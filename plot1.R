@@ -16,4 +16,4 @@ hist(subhousehold$Global_active_power, col="orange", xlab="Global Active Power
 dev.print(png,filename="../plot1.png",
           width=480, height=480, pointsize=12, units="px")
           
-          
+dev.off()  
