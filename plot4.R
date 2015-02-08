@@ -40,3 +40,4 @@ plot(subhousehold$y, subhousehold$Global_reactive_power, type ="l", lwd=1,
 
 dev.print(png,filename="../plot4.png",
           width=480, height=480, pointsize=12, units="px")
+dev.off()
