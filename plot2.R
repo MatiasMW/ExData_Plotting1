@@ -22,7 +22,7 @@ plot(subhousehold$y, subhousehold$Global_active_power, type ="l", lwd=1,
 dev.print(png,filename="../plot2.png",
           width=480, height=480, pointsize=12, units="px")
           
-  
+  dev.off()
           
           
           
