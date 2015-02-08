@@ -29,3 +29,4 @@ legend("topright",legend=c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"),
 dev.print(png,filename="../plot3.png",
           width=480, height=480, pointsize=12, units="px")
           
+dev.off()
